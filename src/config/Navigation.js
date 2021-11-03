@@ -1,5 +1,5 @@
 import React from "react";
-import {Login,Signup,ResetPass,NewPass} from '../screens'
+import {Login,Signup,ResetPass,NewPass,Quiz} from '../screens'
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
@@ -14,6 +14,7 @@ export default function Navigation() {
           <Stack.Screen name="Signup" options={{ title: 'Signup' }} component={Signup} />
           <Stack.Screen name="NewPass" component={NewPass} />
           <Stack.Screen name="ResetPass" component={ResetPass} />
+          <Stack.Screen name="Quiz" component={Quiz} />
         </Stack.Navigator>
       </NavigationContainer>
     );

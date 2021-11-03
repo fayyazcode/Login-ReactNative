@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "717808066080",
+    "firebase_url": "https://fir-login-b7c90-default-rtdb.firebaseio.com",
+    "project_id": "fir-login-b7c90",
+    "storage_bucket": "fir-login-b7c90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717808066080:android:9d2c74e0148dca004ca645",
+        "android_client_info": {
+          "package_name": "quiz.level"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717808066080-qb1364ohp4l3gfam626tl03mhiif1re2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB483aGC5kCKh1_gRqgJIRYSjvKeQZKcsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717808066080-qb1364ohp4l3gfam626tl03mhiif1re2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
