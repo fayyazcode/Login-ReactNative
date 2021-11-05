@@ -4,14 +4,19 @@ import InputText from "../components/Input";
 import { Link } from '@react-navigation/native';
 
 
+
 export default function Login() {
+
+  
+
+  
     return (
         <View style={styles.container}>
             <Text style={styles.head}>Login</Text>
             <Text style={styles.secondHead}>Add your details to login</Text>
             <InputText placeholder="Email" style={styles.input} />
             <InputText placeholder="Password" style={styles.input} />
-            <TouchableOpacity title='Submit' style={styles.button}> <Link style={styles.innerLink} to={{screen:'Quiz',params: { id: 'Quiz' }}}>Login</Link></TouchableOpacity>
+            <TouchableOpacity title='Submit' style={styles.button} ><Link style={styles.link} to={{screen:'Cam'}}>Login</Link></TouchableOpacity>
             <Text style={styles.textDetail}><Link to={{screen:'ResetPass'}}>Forget your Password ?</Link></Text>
             <Text style={styles.textDetail}>Don't have any Account  <Link style={styles.innerLink} to={{screen:'Signup',params: { id: 'Signup' }}}>Sign Up</Link>
             </Text>
